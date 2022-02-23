@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/conversorDeDivisas/static/css/main.f9a3d5fd.css",
+    "main.js": "/conversorDeDivisas/static/js/main.8dfc66f6.js",
+    "static/js/787.9b68abb3.chunk.js": "/conversorDeDivisas/static/js/787.9b68abb3.chunk.js",
+    "index.html": "/conversorDeDivisas/index.html",
+    "main.f9a3d5fd.css.map": "/conversorDeDivisas/static/css/main.f9a3d5fd.css.map",
+    "main.8dfc66f6.js.map": "/conversorDeDivisas/static/js/main.8dfc66f6.js.map",
+    "787.9b68abb3.chunk.js.map": "/conversorDeDivisas/static/js/787.9b68abb3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9a3d5fd.css",
+    "static/js/main.8dfc66f6.js"
+  ]
+}

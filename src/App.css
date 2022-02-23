@@ -1,38 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .App {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgb(0, 124, 0) 0%, white 100%);
+  display: flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction: column;
+}
+.heading{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  margin-top: 0;
+}
+.heading h3{
+  color: whitesmoke;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titleContainer{
+  color: whitesmoke;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titleMiddle{
+  color: rgb(181, 255, 193);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.container{
+  width: 100%;
+  padding-bottom: 50px;
+  display: flex; 
+  justify-content:center; 
+  align-items:center; 
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+input{
+  padding-left: 5px;
+  font-size: 20px;
+  height: 36px;
+}
+.middle,.right{
+  width: 120px;
+}
+.switch{
+  padding: 5px;
+  margin-top: 25px;
+  background-color: rgb(226, 252, 184);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.result{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction: column;
+}
+button{
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid forestgreen;
+  background-color: rgb(226, 252, 184);
+  cursor: pointer;
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
+button:hover{
+  border: 2px solid  rgb(226, 252, 184);
+  background-color:forestgreen;
+  color: whitesmoke;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+p,h3, button, .switch{
+  color: forestgreen;
+}
+p{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+footer{
+  color: forestgreen;
+  font-weight: bold;
+  font-size: small;
+  bottom: 0;
 }
